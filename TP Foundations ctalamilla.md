@@ -18,5 +18,11 @@ datasets:
 
 2021: https://cdn.buenosaires.gob.ar/datosabiertos/datasets/ministerio-de-justicia-y-seguridad/delitos/delitos_2021.csv
 
+#### Preguntas a responder.
+- Cual es el Barrio con mayor incidencia de delitos. Indicador numero de delitos semanal. 
+- Durante la pandemia el numero de delitos semanales disminuyo? En que magnitud?
+- Todos los dias de la semana tienen el mayor riesgo en cuando a la incidencia de delitos?
+- Cuales son las horas del dia con mayor numero de delitos?
+
 
 
