@@ -11,11 +11,11 @@ services:
          #   max-size: 10m
           #  max-file: "3"
         ports:
-          - '5432:5432'
+          - '5438:5432'
         volumes:
           - ./sql/delitos.sql:/datasql/crearTablas.sql
           #esto no esta operativo
           - ./scriptsBash/entrypoint.sh:/init.sh
           - ./scriptsBash/entrypoint.sh:/docker-entrypoint-initdb.d/entrada.sh
-        #command: ['sh', '/entrada.sh']
+        #command: ['sh', '/init.sh']
        
