@@ -15,7 +15,7 @@ services:
         volumes:
           - ./sql/delitos.sql:/datasql/crearTablas.sql
           #esto no esta operativo
-          - ./scriptsBash/entrypoint.sh:/init.sh
+          #- ./scriptsBash/entrypoint.sh:/init.sh
           - ./scriptsBash/entrypoint.sh:/docker-entrypoint-initdb.d/entrada.sh
         #command: ['sh', '/init.sh']
        
