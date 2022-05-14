@@ -2,14 +2,11 @@ version: '3.7'
 services:
     postgres:
         image: postgres:12.7
+        hostname: db_delitos
         #restart: always
         environment:
           - POSTGRES_USER=postgres
           - POSTGRES_PASSWORD=postgres
-        #logging:
-         # options:
-         #   max-size: 10m
-          #  max-file: "3"
         ports:
           - '5438:5432'
         volumes:
