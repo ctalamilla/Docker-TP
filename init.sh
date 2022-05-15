@@ -9,6 +9,6 @@ docker run -d --name itba \
              pythonitba sleep 1000
 #docker network connect network_app itba 
 docker exec -it itba bash -c "cd /filltables;python3 filltables.py"
-docker exec -it itba bash -c "cd /filltables;python3 report.py > /report/report.md"
-cat report/report.md   
+docker exec -it itba bash -c "cd /filltables;python3 report.py > /report/report.txt"
+cat report/report.txt   
 bash end.sh
