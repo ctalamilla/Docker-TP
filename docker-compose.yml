@@ -2,7 +2,7 @@ version: '3.7'
 services:
     postgres:
         image: postgres:12.7
-        hostname: db_delitos
+        container_name: db_delitos
         #restart: always
         environment:
           - POSTGRES_USER=postgres
@@ -15,4 +15,6 @@ services:
           #- ./scriptsBash/entrypoint.sh:/init.sh
           - ./scriptsBash/entrypoint.sh:/docker-entrypoint-initdb.d/entrada.sh
         #command: ['sh', '/init.sh']
-       
+networks:
+  default:
+    name: network_app
