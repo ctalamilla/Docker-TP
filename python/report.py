@@ -5,9 +5,9 @@ import warnings
 warnings.filterwarnings('ignore')
 
 #conexion por sqlalchemy
-engine = sqlalchemy.create_engine('postgresql://postgres:postgres@localhost:5438/delitos')
+engine = sqlalchemy.create_engine('postgresql://postgres:postgres@db_delitos:5432/delitos')
 #conecion por psycopg2
-conn = psycopg2.connect(user= 'postgres', password='postgres' ,host='127.0.0.1', port='5438', database='delitos')
+#conn = psycopg2.connect(user= 'postgres', password='postgres' ,host='127.0.0.1', port='5438', database='delitos')
 
 ### Consultas a la DB
 #Pregunta 1: 
