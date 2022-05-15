@@ -8,4 +8,4 @@ COPY /python /filltables
 
 EXPOSE 5432
 
-CMD ['python']
+CMD ["python3"]
