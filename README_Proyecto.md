@@ -69,4 +69,4 @@ Para cumplir taxativamente con las consignas se procedio a lo siguiente:
 
 
 ### Rutas y archivos de la carpeta de trabajo
-<img src="/img/ruta.png" alt="ruta de trabajo" width="100"/>
+<img src="/img/ruta.png" alt="ruta de trabajo" width="500"/>
